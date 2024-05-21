@@ -1,0 +1,82 @@
+{
+    "Home": {
+        "hello": "Merhaba Dünya!"   
+    },
+    "System": {
+        "notFound-title": "Sayfa Bulunamadı",   
+        "notFound-desc": "Üzgünüz, aradığınız sayfa bulunamadı. Lütfen tekrar deneyin."   
+    },
+    "Metadata" :{
+        "title": "Online Kelime Bulma Oyunu - Spelling Bee",
+        "description": "Online kelime bulma oyunu. 7 harften kaç kelime yapabilirsin?"
+    },
+    "Intro":{
+        "title": "7 harften kaç kelime yapabilirsin?",
+        "playBtn": "Oyna"              
+    },
+    "Nav": {
+        "howToPlayBtn": "Nasıl Oynanır?",
+        "rankingBtn": "Puanlama"
+    },     
+    "PlayModal": {
+        "title-login" : "Giriş Yap",
+        "title-signup" : "Kayıt Ol",
+        "desc-login" : "Oynamak için giriş yapmalısın.",
+        "desc-signup" : "Oynamak için kayıt olmalısın",
+        "avatar": "Avatar",
+        "nickname": "Takma Ad",
+        "password": "Parola",
+        "submitBtn-login": "Giriş Yap",
+        "submitBtn-signup": "Kayıt Ol",
+        "span-signup": "Kayıt Ol",
+        "span-login": "Giriş Yap"
+    },
+    "LocaleSwitcher": {
+        "label": "Change language",
+        "locale": "{locale, select, tr {Turkish} en {English} other {Unknown}}"
+    },
+    "ToastMsg": {
+        "loginSuccess": "Hoşgeldin!",
+        "signupSuccess": "Kayıt başarılı. Giriş yapabilirsiniz."
+    },
+    "ZodErrors": {
+        "nicknameRequired": "Takma ad zorunludur",
+        "passwordMinLength": "Parola en az 6 karakter olmalıdır",
+        "nicknameMaxLength" : "Takma ad en fazla 20 karakter olmalıdır",
+        "server1": "Taskma ad zaten mevcut. Lütfen başka bir takma ad seçin.",
+        "server2": "Kullanıcı oluşturuldu. Giriş yapabilirsiniz.",
+        "server3": "Kayıt bulunamadı. Lütfen tekrar deneyin.",
+        "server4": "Parola yanlış. Lütfen tekrar deneyin."
+    },
+    "HowToPlay": {
+        "title" : "Nasıl Oynanır?",
+        "subTitle1" : "Oyun Hakkında",
+        "subDesc1" : "Spelling Bee, 7 harften oluşan bir kelime bulma oyunudur. Oyunun amacı, harfleri kullanarak en fazla kelimeyi bulmaktır..",
+        "subTitle2" : "Kurallar",
+        "subDesc2": "Merkez harf her kelime için kullanılmalıdır. Kelimeler en az 4 harf içermelidir. Harfler birden fazla kez kullanılabilir.",
+        "subTitle3": "İpuçları",
+        "li1": "Her kelime için merkez harfi kullanın.",
+        "li2": "Kelimeler en az 4 harf içermelidir. 3 harfli kelimeler kabul edilmez.",
+        "li3": "Harfleri istediğiniz kadar kullanabilirsiniz.",
+        "li4": "Pangramlar, tüm harfleri kullanan kelimelerdir.",
+        "subTitle4": "Oyun",
+        "subDesc4": "Oyun, tüm kelimeleri bulana kadar veya süre dolduğunda devam eder. Oyun sonunda, bulunan kelimelerin toplam puanı gösterilir."
+    },
+    "Rankings": {
+        "title" : "Puanlama",
+        "subTitle1" : "Puanlama Sistemi",
+        "subDesc1" : "Her kelime için puanlama aşağıdaki gibidir: 4 harf: 10 puan, 5 harf: 12 puan, 6 harf: 14 puan, 7 harf: 18 puan.",
+        "subTitle2" : "Seviyeler",
+        "li1": "Beginner: 0 - 99 puan",
+        "li2": "Novice: 100 - 199 puan",
+        "li3": "Okay: 200 - 349 puan",
+        "li4": "Good: 350 - 599 puan",
+        "li5": "Solid: 600 - 1099 puan",
+        "li6": "Nice: 1100 - 2099 puan",
+        "li7": "Great: 2100 - 4249 puan",
+        "li8": "Amazing: 4250 - 7499 puan",
+        "li9": "Genius: 7500 - 9999 puan",
+        "li10": "Master: 10000+ puan",
+        "points": "Puan"
+        }
+}

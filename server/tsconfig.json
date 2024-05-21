@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "outDir": "./dist",                 // Çıktı dizini
+    "rootDir": "./",                 // Kaynak dosyalarının kök dizini
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true                   // Kaynak haritası oluşturma
+  },
+  "include": ["**/*.ts"],           // Dahil edilecek dosyalar
+  "exclude": ["node_modules"]           // Hariç tutulacak dosyalar
+}

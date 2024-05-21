@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "ES2020"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "lib/context.js", "app/error.js", ".tests/Game.test.ts"],
+  "exclude": ["node_modules"],
+  "proxies": {
+    "/api": {
+      "origin": "http://localhost:5000",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      
+    }
+  },
+}

@@ -1,0 +1,82 @@
+{
+    "Home": {
+        "hello": "Hello World!"   
+    },
+    "System": {
+        "notFound-title": "404 Not Found",   
+        "notFound-desc": "The page you are looking for does not exist. Please check the URL and try again."   
+    },
+    "Metadata" :{
+        "title": "Spelling Bee Game | Multiplayer",
+        "description": "Multiplayer spelling bee game for all ages. Play with friends or random opponents. Available in multiple languages."
+    },
+    "Intro":{
+        "title": "How many words can you make with 7 letters?",
+        "playBtn": "Play"        
+    },
+    "Nav": {
+        "howToPlayBtn": "How To Play?",
+        "rankingBtn": "Ranking"
+    },
+    "PlayModal": {
+        "title-login" : "Login",
+        "title-signup" : "Signup",
+        "desc-login" : "Login to continue playing.",
+        "desc-signup" : "Signup to play",
+        "avatar": "Avatar",
+        "nickname": "Nickname",
+        "password": "Password",
+        "submitBtn-login": "Log In",
+        "submitBtn-signup": "Sign Up",
+        "span-signup": "Create Account",
+        "span-login": "Login"
+    },
+    "LocaleSwitcher": {
+        "label": "Change language",
+        "locale": "{locale, select, tr {Turkish} en {English} other {Unknown}}"
+    },
+    "ToastMsg": {
+        "loginSuccess": "Welcome!",
+        "signupSuccess": "User created successfully. Please login."
+    },
+    "ZodErrors": {
+        "nicknameRequired": "Nickname is required",
+        "passwordMinLength": "Password must be at least 6 characters",
+        "nicknameMaxLength" : "Nickname must be at most 20 characters",
+        "server1": "This nickname is already taken. Please try another one.",
+        "server2": "User created successfully. Please login.",
+        "server3": "User not found. Please check your credentials.",
+        "server4": "Password is wrong."
+    },
+    "HowToPlay": {
+        "title" : "How to Play",
+        "subTitle1" : "Objective",
+        "subDesc1" : "The objective of the game is to find as many words as possible using the given letters. Each puzzle has one or more 'pangrams', which use all the letters at least once.",
+        "subTitle2" : "Scoring",
+        "subDesc2": "Words must be at least four letters long. Each letter is worth 1 point, except pangrams which are worth 7 extra points. You can use each letter as many times as you want.",
+        "subTitle3": "Hints",
+        "li1": "The center letter must be used in every word.",
+        "li2": "Words must contain at least 4 letters.",
+        "li3": "Letters can be used more than once.",
+        "li4": "There is at least one pangram which uses every letter.",
+        "subTitle4": "Game Play",
+        "subDesc4": "Click on the letters to form words. Press \"Enter\" to submit a word. If the word is valid, it will appear in the list of found words. The game continues until you find all possible words or time runs out."
+    },
+    "Rankings": {
+        "title" : "Rankings",
+        "subTitle1" : "How Rankings Work",
+        "subDesc1" : "Rankings are determined based on the number of points you accumulate from solving puzzles. The more puzzles you solve and the more points you earn, the higher your rank will be.",
+        "subTitle2" : "Ranking Levels",
+        "li1": "Beginner: 0 - 99 points",
+        "li2": "Novice: 100 - 199 points",
+        "li3": "Okay: 200 - 349 points",
+        "li4": "Good: 350 - 599 points",
+        "li5": "Solid: 600 - 1099 points",
+        "li6": "Nice: 1100 - 2099 points",
+        "li7": "Great: 2100 - 4249 points",
+        "li8": "Amazing: 4250 - 7499 points",
+        "li9": "Genius: 7500 - 9999 points",
+        "li10": "Master: 10000+ points",
+        "points": "Points"
+        }
+}
